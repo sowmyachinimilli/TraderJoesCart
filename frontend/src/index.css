@@ -1,4 +1,7 @@
 main{
-    min-height: 80vh;
-    
+    min-height: 80vh;  
+}
+.product-image-card{
+    width: 20px;
+    height: 250px;
 }

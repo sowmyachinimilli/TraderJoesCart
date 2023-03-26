@@ -1,16 +1,13 @@
 const products = [
     {
         id:'1',
-        name: 'Korean Beafless' ,
+        name: 'Korean Beafless Bulgogi' ,
         image: '/images/cardimg1.jpg' ,
         description:   
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
-        brand: 'Apple',
-        category: 'Electronics',
-        price: 89.99,
-        countInStock: 3, 
-        rating: 4.5, 
-        numReviews: 4,
+        category: 'Entrees N Sides',
+        price: 9.99,
+        countInStock: 5
     },
     {
         id:'2',
@@ -18,51 +15,79 @@ const products = [
         image: '/images/cardimg2.jpg' ,
         description:   
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
-        brand: 'Apple',
-        category: 'Electronics',
-        price: 89.99,
-        countInStock: 3, 
-        rating: 4.5, 
-        numReviews: 4,
+        category: 'Coffee N Tea',
+        price: 5.99,
+        countInStock: 3
     },
     {
         id:'3',
-        name: 'Black Tea' ,
+        name: 'Fire Roasted Red Peppers' ,
         image: '/images/cardimg3.jpg' ,
         description:   
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
-        brand: 'Apple',
-        category: 'Electronics',
-        price: 89.99,
-        countInStock: 3, 
-        rating: 4.5, 
-        numReviews: 4,
+        category: 'Entrees N Sides',
+        price: 4.99,
+        countInStock: 8
     },
     {
         id:'4',
-        name: 'Black Tea' ,
+        name: 'Organice Brown Rice Cake Thins' ,
         image: '/images/cardimg4.jpg' ,
         description:   
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
-        brand: 'Apple',
-        category: 'Electronics',
-        price: 89.99,
-        countInStock: 3, 
-        rating: 4.5, 
-        numReviews: 4,
+        category: 'Snakcs N Sweets',
+        price: 6.99,
+        countInStock: 10
     },
     {
         id:'5',
-        name: 'Black Tea' ,
+        name: 'Organic Polenta' ,
         image: '/images/cardimg5.jpg' ,
         description:   
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
-        brand: 'Apple',
-        category: 'Electronics',
-        price: 89.99,
-        countInStock: 3, 
-        rating: 4.5, 
-        numReviews: 4,
+        category: 'Pastas N Grains',
+        price: 8.99,
+        countInStock: 9
+    },
+    {
+        id:'6',
+        name: 'Organic Apricot Preserves' ,
+        image: '/images/cardimg6.jpg' ,
+        description:   
+        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        category: 'Nut Butters N Fruit Spreads',
+        price: 3.99,
+        countInStock: 11
+    },
+    {
+        id:'7',
+        name: 'Decaf Joe Medium Roast Ground Coffee' ,
+        image: '/images/cardimg7.jpg' ,
+        description:   
+        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        category: 'Coffee N Tea',
+        price: 7.99,
+        countInStock: 4
+    },
+    {
+        id:'8',
+        name: 'Red Pepper and Almond Pesto Sauce' ,
+        image: '/images/cardimg8.jpg' ,
+        description:   
+        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        category: 'Dips N Sauces',
+        price: 4.99,
+        countInStock: 8
+    },
+    {
+        id:'9',
+        name: 'Half Dipped Choco and Vanilla Sandwich Bars' ,
+        image: '/images/cardimg9.jpg' ,
+        description:   
+        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        category: 'Cool Desserts',
+        price: 5.99,
+        countInStock: 7
     }
 ]
 
