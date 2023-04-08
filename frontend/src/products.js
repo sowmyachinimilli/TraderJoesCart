@@ -7,7 +7,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Entrees N Sides',
         price: 9.99,
-        countInStock: 5
+        countInStock: 5,
+        rating: 3,
+        numReviews: 10
     },
     {
         id:'2',
@@ -17,7 +19,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Coffee N Tea',
         price: 5.99,
-        countInStock: 3
+        countInStock: 3,
+        rating: 4.5,
+        numReviews: 11
     },
     {
         id:'3',
@@ -27,7 +31,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Entrees N Sides',
         price: 4.99,
-        countInStock: 8
+        countInStock: 8,
+        rating: 3.5,
+        numReviews: 12
     },
     {
         id:'4',
@@ -37,7 +43,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Snakcs N Sweets',
         price: 6.99,
-        countInStock: 10
+        countInStock: 10,
+        rating: 4,
+        numReviews: 11
     },
     {
         id:'5',
@@ -47,7 +55,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Pastas N Grains',
         price: 8.99,
-        countInStock: 9
+        countInStock: 9,
+        rating: 4.5,
+        numReviews: 12
     },
     {
         id:'6',
@@ -57,7 +67,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Nut Butters N Fruit Spreads',
         price: 3.99,
-        countInStock: 11
+        countInStock: 11,
+        rating: 3.7,
+        numReviews: 15
     },
     {
         id:'7',
@@ -67,7 +79,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Coffee N Tea',
         price: 7.99,
-        countInStock: 4
+        countInStock: 4,
+        rating: 4.7,
+        numReviews: 16
     },
     {
         id:'8',
@@ -77,7 +91,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Dips N Sauces',
         price: 4.99,
-        countInStock: 8
+        countInStock: 8,
+        rating: 3,
+        numReviews: 10
     },
     {
         id:'9',
@@ -87,7 +103,9 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Cool Desserts',
         price: 5.99,
-        countInStock: 7
+        countInStock: 7,
+        rating: 4.2,
+        numReviews: 13
     }
 ]
 
