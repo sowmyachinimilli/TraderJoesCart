@@ -7,7 +7,7 @@ const products = [
         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
         category: 'Entrees N Sides',
         price: 9.99,
-        countInStock: 5,
+        countInStock: 0,
         rating: 3,
         numReviews: 10
     },
