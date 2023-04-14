@@ -1,6 +1,5 @@
 const products = [
     {
-        id:'1',
         name: 'Korean Beafless Bulgogi' ,
         image: '/images/cardimg1.jpg' ,
         description:   
@@ -12,7 +11,6 @@ const products = [
         numReviews: 10
     },
     {
-        id:'2',
         name: 'Black Tea' ,
         image: '/images/cardimg2.jpg' ,
         description:   
@@ -24,7 +22,6 @@ const products = [
         numReviews: 11
     },
     {
-        id:'3',
         name: 'Fire Roasted Red Peppers' ,
         image: '/images/cardimg3.jpg' ,
         description:   
@@ -36,7 +33,6 @@ const products = [
         numReviews: 12
     },
     {
-        id:'4',
         name: 'Organice Brown Rice Cake Thins' ,
         image: '/images/cardimg4.jpg' ,
         description:   
@@ -48,7 +44,6 @@ const products = [
         numReviews: 11
     },
     {
-        id:'5',
         name: 'Organic Polenta' ,
         image: '/images/cardimg5.jpg' ,
         description:   
@@ -60,7 +55,6 @@ const products = [
         numReviews: 12
     },
     {
-        id:'6',
         name: 'Organic Apricot Preserves' ,
         image: '/images/cardimg6.jpg' ,
         description:   
@@ -72,7 +66,6 @@ const products = [
         numReviews: 15
     },
     {
-        id:'7',
         name: 'Decaf Joe Medium Roast Ground Coffee' ,
         image: '/images/cardimg7.jpg' ,
         description:   
@@ -84,7 +77,6 @@ const products = [
         numReviews: 16
     },
     {
-        id:'8',
         name: 'Red Pepper and Almond Pesto Sauce' ,
         image: '/images/cardimg8.jpg' ,
         description:   
@@ -96,7 +88,6 @@ const products = [
         numReviews: 10
     },
     {
-        id:'9',
         name: 'Half Dipped Choco and Vanilla Sandwich Bars' ,
         image: '/images/cardimg9.jpg' ,
         description:   
@@ -109,4 +100,4 @@ const products = [
     }
 ]
 
-module.exports =  products;
+export default products;
