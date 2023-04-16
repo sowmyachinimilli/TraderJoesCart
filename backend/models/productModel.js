@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import products from "../data/products";
+import products from '../data/products.js';
 
 const reviewSchema = mongoose.Schema({
     name: {type: String, required: true},
@@ -24,10 +24,6 @@ const productSchema = mongoose.Schema({
         type: String,
         required: true,
     },
-    brand: {
-        type: String,
-        required: true
-    },
     category: {
         type: String,
         required: true,
@@ -42,7 +38,7 @@ const productSchema = mongoose.Schema({
         required: true,
         default:0
     },
-    NumReviews: {
+    numReviews: {
         type: Number,
         required: true,
         default: 0
