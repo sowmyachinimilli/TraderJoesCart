@@ -20,7 +20,7 @@ const cartItemsFromStroage = localStorage.getItem('cartItems')
   : [];
 
 const initialState = {
-  cart: { cartItems: cartItemsFromStroage },
+  cart: { cartItems: {cartItemsFromStroage} },
 };
 
 const middleware = [thunk];
