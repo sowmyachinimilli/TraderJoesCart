@@ -1,17 +1,14 @@
 import {
-  PROCUST_LIST_SUCCESS,
+  PRODUCT_LIST_SUCCESS,
   PRODUCT_LIST_FAIL,
   PRODUCT_LIST_REQUEST,
 } from '../constants/productConstants';
-
+import axios from 'axios';
 export const listProducts = () => async (dispatch) => {
   try {
-    dispatch({ type: PRODUCT_LIST_REQUEST });
+    console.log('Fetching products data');
     const { data } = await axios.get('/api/products');
-    dispatch({
-      type: PRODUCT_LIST_SUCCESS,
-      payload: data,
-    });
+    dispatch({ type: PRODUCT_LIST_SUCCESS, payload: data });
   } catch (error) {
     dispatch({
       type: PRODUCT_LIST_FAIL,
