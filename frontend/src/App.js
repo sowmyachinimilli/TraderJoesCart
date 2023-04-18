@@ -7,6 +7,8 @@ import HomePage from './pages/HomePage';
 import ProductPage from './pages/ProductPage';
 import CartPage from './pages/CartPage';
 import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+import ProfilePage from './pages/ProfilePage';
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
         <Container>
          <Routes>
           <Route path='/login' Component={LoginPage} />
+          <Route path='/register' Component={RegisterPage} />
+          <Route path='/profile' Component={ProfilePage} />
             <Route path='/product/:id' Component={ProductPage} />
             <Route path='/cart/:id?' Component={CartPage} />
             <Route path='/' Component={HomePage} exact />
