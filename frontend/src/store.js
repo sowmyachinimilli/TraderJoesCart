@@ -3,7 +3,12 @@ import { applyMiddleware, combineReducers } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import thunk from 'redux-thunk';
 import { cartReducer } from './reducers/cartReducers';
-import { userDetailsReducer, userLoginReducer, userRegisterReducer, userUpdateProfileReducer } from './reducers/userReducers';
+import {
+  userDetailsReducer,
+  userLoginReducer,
+  userRegisterReducer,
+  userUpdateProfileReducer,
+} from './reducers/userReducers';
 
 import {
   productDetailsReducer,
@@ -11,8 +16,11 @@ import {
 } from './reducers/productReducers';
 
 import {
-  orderCreateReducer, orderDetailsReducer
-} from './reducers/orderReducers.js'
+  orderCreateReducer,
+  orderDetailsReducer,
+  orderPayReducer,
+  orderListMyReducer,
+} from './reducers/orderReducers.js';
 const rootReducer = combineReducers({
   productList: productListReducer,
   productDetails: productDetailsReducer,
@@ -21,29 +29,29 @@ const rootReducer = combineReducers({
   userRegister: userRegisterReducer,
   userDetails: userDetailsReducer,
   userUpdateProfile: userUpdateProfileReducer,
-  orderCreate : orderCreateReducer,
+  orderCreate: orderCreateReducer,
   orderDetails: orderDetailsReducer,
+  orderPay: orderPayReducer,
 });
 
 const cartItemsFromStroage = localStorage.getItem('cartItems')
   ? JSON.parse(localStorage.getItem('cartItems'))
   : [];
 
-  const UserInfoFromStroage = localStorage.getItem('userInfo')
+const UserInfoFromStroage = localStorage.getItem('userInfo')
   ? JSON.parse(localStorage.getItem('userInfo'))
   : null;
 
-  const shippingAddressFromStorage = localStorage.getItem('shippingAddress')
+const shippingAddressFromStorage = localStorage.getItem('shippingAddress')
   ? JSON.parse(localStorage.getItem('shippingAddress'))
-  : {}
-
+  : {};
 
 const initialState = {
-  cart: { 
+  cart: {
     cartItems: cartItemsFromStroage,
     shippingAddress: shippingAddressFromStorage,
- },
-  userLogin: {userInfo: UserInfoFromStroage},
+  },
+  userLogin: { userInfo: UserInfoFromStroage },
 };
 
 const middleware = [thunk];
