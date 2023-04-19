@@ -10,6 +10,9 @@ import {
   productListReducer,
 } from './reducers/productReducers';
 
+import {
+  orderCreateReducer
+} from './reducers/orderReducers.js'
 const rootReducer = combineReducers({
   productList: productListReducer,
   productDetails: productDetailsReducer,
@@ -18,6 +21,7 @@ const rootReducer = combineReducers({
   userRegister: userRegisterReducer,
   userDetails: userDetailsReducer,
   userUpdateProfile: userUpdateProfileReducer,
+  orderCreate : orderCreateReducer,
 });
 
 const cartItemsFromStroage = localStorage.getItem('cartItems')
