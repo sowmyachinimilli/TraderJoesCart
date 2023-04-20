@@ -1,6 +1,7 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
 
+//usermodel mongoose
 const userSchema = mongoose.Schema(
   {
     name: {
