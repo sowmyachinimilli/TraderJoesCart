@@ -29,6 +29,9 @@ const authUser = asyncHandler(async (req, res) => {
 //@route   POST /api/user/login
 //@access  public
 const registerUser = asyncHandler(async (req, res) => {
+  var regexName = /^[a-zA-Z]+$/
+  var regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+
   const { name, email, password } = req.body;
 
   const userExists = await User.findOne({ email });
@@ -37,6 +40,16 @@ const registerUser = asyncHandler(async (req, res) => {
     res.status(400);
     throw new Error('User already exists');
   }
+
+  // if(!name.trim().match(regexName)){
+  //   res.status(400);
+  //   throw new Error('Name should contain only alphabets');
+  // }
+
+  // if(!email.trim().match(regexEmail)){
+  //   res.status(400);
+  //   throw new Error("Invalid email address. Please enter a valid email");
+  // }
 
   const user = await User.create({
     name,

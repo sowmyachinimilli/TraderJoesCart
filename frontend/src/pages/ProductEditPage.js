@@ -126,7 +126,7 @@ export const ProductEditPage = () => {
 
             <Form.Group controlId='image'>
               <Row>
-                <Col>
+                <Col md={8}>
                   <Form.Label>Image</Form.Label>
                   <Form.Control
                     type='text'
@@ -135,7 +135,7 @@ export const ProductEditPage = () => {
                     onChange={(e) => setImage(e.target.value)}
                   ></Form.Control>
                 </Col>
-                <Col md={3}>
+                <Col>
                   <input
                     accept='image/*'
                     type='file'
@@ -148,7 +148,7 @@ export const ProductEditPage = () => {
                 </Col>
               </Row>
             </Form.Group>
-
+            
             <Form.Group controlId='category'>
               <Form.Label>Category</Form.Label>
               <Form.Control

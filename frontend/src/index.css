@@ -19,3 +19,11 @@ h3 {
 .rating span {
     margin: 0.1rem;
 }
+
+.navbg{
+    background-color: #af0006;
+}
+
+body{
+    background-color: bisque;
+}

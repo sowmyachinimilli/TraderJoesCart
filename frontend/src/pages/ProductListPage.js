@@ -45,12 +45,6 @@ export const ProductListPage = () => {
       navigate('/login');
     }
     dispatch({ type: PRODUCT_CREATE_RESET });
-
-    dispatch({ type: PRODUCT_CREATE_RESET });
-
-    if (!userInfo.isAdmin) {
-      navigate('/login');
-    }
     if (successCreate) {
       navigate(`/admin/product/${createdProduct._id}/edit`);
     } else {
