@@ -3,7 +3,7 @@ const products = [
         name: 'Korean Beafless Bulgogi' ,
         image: '/images/cardimg1.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Korean Beefless Bulgogi is a plant-based version of the traditional Korean dish, which typically features marinated slices of beef grilled or pan-fried to perfection.',
         category: 'Entrees N Sides',
         price: 9.99,
         countInStock: 0,
@@ -14,7 +14,7 @@ const products = [
         name: 'Black Tea' ,
         image: '/images/cardimg2.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Black tea is a type of tea that is more oxidized than green, oolong, and white teas. It is made from the leaves of the Camellia sinensis plant, and is a popular beverage around the world.',
         category: 'Coffee N Tea',
         price: 5.99,
         countInStock: 3,
@@ -25,7 +25,7 @@ const products = [
         name: 'Fire Roasted Red Peppers' ,
         image: '/images/cardimg3.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Fire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
         category: 'Entrees N Sides',
         price: 4.99,
         countInStock: 8,
@@ -36,7 +36,7 @@ const products = [
         name: 'Organice Brown Rice Cake Thins' ,
         image: '/images/cardimg4.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Fire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
         category: 'Snakcs N Sweets',
         price: 6.99,
         countInStock: 10,
@@ -47,7 +47,7 @@ const products = [
         name: 'Organic Polenta' ,
         image: '/images/cardimg5.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Fire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
         category: 'Pastas N Grains',
         price: 8.99,
         countInStock: 9,
@@ -58,7 +58,7 @@ const products = [
         name: 'Organic Apricot Preserves' ,
         image: '/images/cardimg6.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Fire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
         category: 'Nut Butters N Fruit Spreads',
         price: 3.99,
         countInStock: 11,
@@ -69,7 +69,7 @@ const products = [
         name: 'Decaf Joe Medium Roast Ground Coffee' ,
         image: '/images/cardimg7.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Fire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
         category: 'Coffee N Tea',
         price: 7.99,
         countInStock: 4,
@@ -80,7 +80,7 @@ const products = [
         name: 'Red Pepper and Almond Pesto Sauce' ,
         image: '/images/cardimg8.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Fire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
         category: 'Dips N Sauces',
         price: 4.99,
         countInStock: 8,
@@ -91,7 +91,7 @@ const products = [
         name: 'Half Dipped Choco and Vanilla Sandwich Bars' ,
         image: '/images/cardimg9.jpg' ,
         description:   
-        'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience. Built-in microphone allows you to take calls while working',
+        'Fire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
         category: 'Cool Desserts',
         price: 5.99,
         countInStock: 7,
