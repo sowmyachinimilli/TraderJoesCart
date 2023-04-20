@@ -6,6 +6,7 @@ import Message from '../components/Message'
 import Loader from '../components/Loader'
 import FormContainer from '../components/FormContainer'
 import { register } from '../actions/userActions'
+import { USER_REGISTER_RESET} from '../constants/userConstants'
 
 const RegisterPage = () => {
 const [name, setName] = useState('')
@@ -35,7 +36,14 @@ const [name, setName] = useState('')
     if(password !== confirmPassword){
         setMessage('Passwords do not match')
     } else {
+    // dispatch(register(name, email, password))
     dispatch(register(name, email, password))
+    setName('')
+    setEmail('')
+    setPassword('')
+    setConfirmPassword('')
+    setMessage(null)
+    dispatch({ type: USER_REGISTER_RESET })
     }
   }
 
