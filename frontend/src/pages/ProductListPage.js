@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Link, useNavigate, useLocation } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 import { Table, Button, Row, Col } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import Message from '../components/Message';
@@ -16,7 +16,6 @@ export const ProductListPage = () => {
   const dispatch = useDispatch();
 
   const navigate = useNavigate();
-  const location = useLocation();
 
   const productList = useSelector((state) => state.productList);
   const { loading, error, products } = productList;
