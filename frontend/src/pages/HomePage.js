@@ -5,6 +5,7 @@ import Product from '../components/Product';
 import { listProducts } from '../actions/ProductActions';
 import Message from '../components/Message';
 import Loader from '../components/Loader';
+import ProductCarousel from '../components/ProductCarousel';
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -25,6 +26,7 @@ const HomePage = () => {
 
   return (
     <>
+      {<ProductCarousel />}
       <h1>Latest products</h1>
       {loading ? (
         <Loader />

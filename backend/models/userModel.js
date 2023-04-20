@@ -16,6 +16,9 @@ const userSchema = mongoose.Schema(
     password: {
       type: String,
       required: true,
+      minLength: [8, 'Password should be atleast 8 characters long'],
+
+      message: 'Password validation failed',
     },
     isAdmin: {
       type: Boolean,
@@ -34,13 +37,13 @@ userSchema.methods = {
   },
 };
 
-userSchema.pre('save', async function (next){
-    if(!this.isModified('password')){
-        next()
-    }
-    const salt = await bcrypt.genSalt(10)
-    this.password = await bcrypt.hash(this.password, salt)
-})
+userSchema.pre('save', async function (next) {
+  if (!this.isModified('password')) {
+    next();
+  }
+  const salt = await bcrypt.genSalt(10);
+  this.password = await bcrypt.hash(this.password, salt);
+});
 const User = mongoose.model('User', userSchema);
 
 export default User;

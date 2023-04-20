@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import {  useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Table, Button, Row, Col } from 'react-bootstrap';
 import { useDispatch, useSelector } from 'react-redux';
 import Message from '../components/Message';
@@ -39,6 +39,13 @@ export const ProductListPage = () => {
   const { userInfo } = userLogin;
 
   useEffect(() => {
+    if (userInfo && userInfo.isAdmin) {
+      dispatch(listProducts());
+    } else {
+      navigate('/login');
+    }
+    dispatch({ type: PRODUCT_CREATE_RESET });
+
     dispatch({ type: PRODUCT_CREATE_RESET });
 
     if (!userInfo.isAdmin) {
