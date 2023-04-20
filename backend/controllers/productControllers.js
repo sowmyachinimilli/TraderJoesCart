@@ -94,7 +94,7 @@ const createProductReview = asyncHandler(async (req, res) => {
     );
     if (alreadyReviewed) {
       res.status(400);
-      throw new Error('Product not found');
+      throw new Error('Product already Reviewed');
     }
     const review = {
       name: req.user.name,

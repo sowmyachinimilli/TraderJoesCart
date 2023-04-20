@@ -14,7 +14,6 @@ import {
   PRODUCT_UPDATE_REQUEST,
   PRODUCT_UPDATE_SUCCESS,
   PRODUCT_UPDATE_FAIL,
-  PRODUCT_CREATE_SUCCESS,
   PRODUCT_CREATE_REVIEW_REQUEST,
   PRODUCT_CREATE_REVIEW_SUCCESS,
   PRODUCT_CREATE_REVIEW_FAIL,
@@ -177,19 +176,18 @@ export const createProductReview =
         },
       };
 
-      const { data } = await axios.post(
-        `/api/products/${product._id}`,
-        product,
-        config
-      );
+      await axios.post(
+        `/api/products/${productId}/reviews`, review, config)
+      
+     
 
       dispatch({
-        type: PRODUCT_UPDATE_SUCCESS,
-        payload: data,
+        type: PRODUCT_CREATE_REVIEW_SUCCESS,
+        // payload: data,
       });
     } catch (error) {
       dispatch({
-        type: PRODUCT_UPDATE_FAIL,
+        type: PRODUCT_CREATE_REVIEW_FAIL,
         payload:
           error.response && error.response.data.message
             ? error.response.data.message
