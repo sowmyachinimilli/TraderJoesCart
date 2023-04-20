@@ -14,6 +14,8 @@ import PaymentPage from './pages/PaymentPage';
 import PlaceOrderPage from './pages/PlaceOrderPage';
 import OrderPage from './pages/OrderPage';
 import { UserListPage } from './pages/UserListPage';
+import UserEditPage from './pages/UserEditPage';
+import ProductListPage from './pages/ProductListPage';
 
 
 const App = () => {
@@ -33,6 +35,8 @@ const App = () => {
             <Route path='/product/:id' Component={ProductPage} />
             <Route path='/cart/:id?' Component={CartPage} />
             <Route path='/admin/userlist' Component={UserListPage} />
+            <Route path='/admin/productlist' Component={ProductListPage} />
+            <Route path='/admin/user/:id/edit' Component={UserEditPage} />
             <Route path='/' Component={HomePage} exact />
             </Routes>
         </Container>
