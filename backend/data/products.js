@@ -36,7 +36,7 @@ const products = [
         name: 'Organice Brown Rice Cake Thins' ,
         image: '/images/cardimg4.jpg' ,
         description:   
-        'Fire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
+        'FOrganic brown rice cake thins are a type of snack food made from organic brown rice. They are typically thin and crispy and are often sold in packages of individual servings. Brown rice cake thins are a popular alternative to traditional crackers and chips as they are gluten-free and contain no added sugars.ire-roasted red peppers are a flavorful ingredient commonly used in Mediterranean and Middle Eastern cuisines. To make fire-roasted red peppers, whole red peppers are placed over an open flame, such as a gas stove burner, grill or barbecue, and charred until the skin is blackened and blistered.',
         category: 'Snakcs N Sweets',
         price: 6.99,
         countInStock: 10,
